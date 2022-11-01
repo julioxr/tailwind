@@ -14,7 +14,7 @@ const Navbar = () => {
                     </div>
                     {/* Menu items */}
                     <div className="pt-2">
-                        <div className="hidden md:flex space-x-6">
+                        <div className="hidden space-x-6 md:flex">
                             <a href="#" className="hover:text-darkGrayishBlue">
                                 Pricing
                             </a>
@@ -34,8 +34,8 @@ const Navbar = () => {
                     </div>
                     {/* Button */}
                     <a
-                        href=""
-                        className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+                        href="#"
+                        className="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline md:block hover:bg-brightRedLight"
                     >
                         Get Started
                     </a>
