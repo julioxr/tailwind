@@ -19,7 +19,7 @@ const Feature = ({ id, title, body }) => {
                     <h3 className="hidden mb-4 text-lg font-bold md:mb-4 md:block">
                         {title}
                     </h3>
-                    <p>{body}</p>
+                    <p className="text-darkGrayishBlue">{body}</p>
                 </div>
             </div>
         </>

@@ -35,7 +35,7 @@ const Navbar = () => {
                     {/* Button */}
                     <a
                         href="#"
-                        className="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline md:block hover:bg-brightRedLight"
+                        className="hidden shadow-teal-700 p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline md:block hover:bg-brightRedLight"
                     >
                         Get Started
                     </a>
